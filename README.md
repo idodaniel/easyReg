@@ -11,9 +11,15 @@ Arduino library for easy software usage to 74HC595 Shift Register.
 ## Usage
 After installing the library, you should include the library whenever you wish to use it. In order to include it, simply add these line in the beginning of your code: `#include <easyReg.h>`.
 
-* `easyReg reg = easyReg(int DS, int STCP, int SHCP, int rg); ` - This is the constructer of the class. `DS` = DS pin, `STCP` = STCP pin, `SHCP` = SHCP pin, `rg` = how many shift registers are connected together.
+* `easyReg reg = easyReg(int DS, int STCP, int SHCP, int rg); ` - This is the constructer of the class. 
+  * `DS` = DS pin, 
+  * `STCP` = STCP pin, 
+  * `SHCP` = SHCP pin, 
+  * `rg` = how many shift registers are connected together.
 
-* `reg.writeReg(int pin, boolean state)` - Changing the state of an output pin in the register. `pin` = the pin in the register, `state` = pin mode (`HIGH` or `LOW`). This function works just like Arduino's `digitalWrite` function.
+* `reg.writeReg(int pin, boolean state)` - Changing the state of an output pin in the register. This function works just like Arduino's `digitalWrite` function.
+  * `pin` = the pin in the register, 
+  * `state` = pin mode (`HIGH` or `LOW`). 
 
   __Note: two code examples are included in the libaray__
 
