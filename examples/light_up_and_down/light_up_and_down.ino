@@ -1,4 +1,5 @@
 /**
+light_up_and_down.ino
 
 This examples sets 8 74HC595 outputs HIGH, waits 500 ms,
 then puts them LOW and wait 500 ms again.
