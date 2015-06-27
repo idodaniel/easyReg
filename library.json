@@ -1,0 +1,12 @@
+{
+  "name": "easyReg",
+  "keywords": "easyReg, 74hc595, 74HC59595",
+  "description": "Made for easy software usage to 74HC595 Shift Register.",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/idodaniel/easyReg.git"
+  },
+  "frameworks": "arduino",
+  "platforms": "atmelavr"
+}
