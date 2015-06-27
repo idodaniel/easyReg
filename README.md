@@ -16,8 +16,7 @@ After installing the library, you should include the library whenever you wish t
   * `STCP` = STCP pin, 
   * `SHCP` = SHCP pin, 
   * `rg` = how many shift registers are connected together.
-
-
+<br /><br />
 * `reg.writeReg(int pin, boolean state)` - Changing the state of an output pin in the register. This function works just like Arduino's `digitalWrite` function.
   * `pin` = the pin in the register, 
   * `state` = pin mode (`HIGH` or `LOW`). 
