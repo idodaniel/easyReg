@@ -26,7 +26,7 @@ void loop() { //loops forever
     ic.writeReg(0, HIGH);   //sets output Q0 HIGH
     delay(1000);            //wait 1 second
     
-    ic.writeReg(0, LOW);    //sets output Q0 HIGH
+    ic.writeReg(0, LOW);    //sets output Q0 LOW
     delay(1000);            //wait 1 second
 
 }
