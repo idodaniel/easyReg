@@ -6,7 +6,7 @@ Arduino library for easy software usage to 74HC595 Shift Register.
 ## Installation
 1. Click on the "Download Zip" button or [click here](https://github.com/idodaniel/easyReg/archive/master.zip).
 2. Extract the zip file
-3. Move the "easyReg" folder that has been extracted to your libraries directory.
+3. Move the extacted folder to your Arduino libraries directory (located on /arduino/libraries)
 
 ## Usage
 After installing the library, you should include the library whenever you wish to use it. In order to include it, simply add these line in the beginning of your code: `#include <easyReg.h>`.
